@@ -1,33 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-        }
-        a {
-            display: block;
-            margin: 10px 0;
-            color: #0066cc;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Página de Políticas</title>
 </head>
 <body>
-    <h1>Welcome</h1>
-    <nav>
-        <a href="https://www.google.com">Google</a>
-        <a href="https://www.github.com">GitHub</a>
-        <a href="https://www.stackoverflow.com">Stack Overflow</a>
-        <a href="https://www.mdn.org">MDN Web Docs</a>
-        <a href="resources/Testes.pdf">Resources PDF</a>
-    </nav>
+    <header>
+        <div class="header-container">
+            <h1>Políticas Corporativas</h1>
+            <p>Documentos e diretrizes para uso, segurança, privacidade e conformidade.</p>
+        </div>
+    </header>
+    <main class="content-area">
+        <section class="intro">
+            <p>Selecione a política desejada para abrir o documento em PDF. Estas políticas ajudam a manter a segurança e a governança em todos os processos.</p>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="resource/033 Falconi-PGSI-R1.pdf"><span class="card-title">Política Geral da Segurança da Informação</span><p class="card-description">Diretrizes gerais para gestão integrada da segurança da informação corporativa.</p></a></li>
+                <li><a href="resource/033 Falconi-BYOD-R1.pdf"><span class="card-title">Política BYOD</span><p class="card-description">Orientações de segurança para uso de dispositivos pessoais em ambiente corporativo.</p></a></li>
+                <li><a href="resource/033 Falconi-Acesso-Remoto-R1.pdf"><span class="card-title">Política de Acesso Remoto</span><p class="card-description">Regras e procedimentos para acesso seguro a sistemas e recursos da empresa remotamente.</p></a></li>
+                <li><a href="resource/033 Falconi-Classificacao-Informacao-R1.pdf"><span class="card-title">Política de Classificação de Informação</span><p class="card-description">Padrões e critérios para classificação e proteção de dados confidenciais.</p></a></li>
+                <li><a href="resource/033 Falconi-Cod-Maliciosos-R1.pdf"><span class="card-title">Política de Código Malicioso</span><p class="card-description">Proteção e prevenção contra malware, vírus e outras ameaças cibernéticas.</p></a></li>
+                <li><a href="resource/033 Falconi-E-MAIL-e-IM-R1.pdf"><span class="card-title">Política de E-mail e Mensagens Instantâneas</span><p class="card-description">Diretrizes de uso seguro de e-mail e plataformas de comunicação instantânea.</p></a></li>
+                <li><a href="resource/033 Falconi-Gestao-Identidade-R1.pdf"><span class="card-title">Política de Gestão de Identidade</span><p class="card-description">Gerenciamento de usuários, autenticação e controle de acesso aos sistemas.</p></a></li>
+                <li><a href="resource/033 Falconi-Internet-e-Midias-Sociais-R1.pdf"><span class="card-title">Política de Internet e Mídias Sociais</span><p class="card-description">Diretrizes para uso responsável da internet e presença em mídias sociais.</p></a></li>
+                <li><a href="resource/033 Falconi-Monitoramento-R1.pdf"><span class="card-title">Política de Monitoramento</span><p class="card-description">Procedimentos e responsabilidades para monitoramento de segurança da informação.</p></a></li>
+                <li><a href="resource/033 Falconi-Resposta-a-incidente-R1.pdf"><span class="card-title">Política de Resposta a Incidentes</span><p class="card-description">Procedimentos para detecção, resposta e recuperação de incidentes de segurança.</p></a></li>
+                <li><a href="resource/033 Falconi Consultores S.A-TUSI-R1.pdf"><span class="card-title">Termos de Uso da Segurança da Informação</span><p class="card-description">Termos obrigatórios que todos os colaboradores devem cumprir na segurança.</p></a></li>
+                <li><a href="resource/033 Falconi Consultores S.A-Uso-Aceitavel-Ativos-Informacao-R1.pdf"><span class="card-title">Política de Uso Aceitável de Ativos</span><p class="card-description">Guia de uso apropriado e responsável dos recursos de informação da empresa.</p></a></li>
+            </ul>
+        </nav>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <p>© 2026 Rafael Tavares. Todos os direitos reservados.</p>
+            <p><a href="#">Termos de Uso</a> | <a href="#">Política de Privacidade</a> | <a href="#">Contato</a></p>
+            <p>Este site pertence ao setor de Governança, Risco e Compliance (GRC).</p>
+        </div>
+    </footer>
 </body>
 </html>
